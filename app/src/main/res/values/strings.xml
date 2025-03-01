@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Palindrome User App</string>
+    <string name="icon_photo">Icon Photo</string>
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+    <string name="background">Background</string>
+    <string name="welcome">Welcome</string>
+    <string name="john_doe">John Doe</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="no_data_available">No Data Available</string>
+</resources>

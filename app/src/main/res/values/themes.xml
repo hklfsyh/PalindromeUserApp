@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <!-- Tema dengan status bar transparan (untuk First Screen) -->
+    <style name="Theme.PalindromeUserApp.TransparentStatus" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item> -->
+    </style>
+
+    <!-- Tema dengan status bar putih (untuk Second Screen) -->
+    <style name="Theme.PalindromeUserApp.WhiteStatus" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Tema utama aplikasi yang mewarisi Base.Theme.PalindromeUserApp -->
+    <style name="Theme.PalindromeUserApp" parent="Base.Theme.PalindromeUserApp" />
+
+</resources>
